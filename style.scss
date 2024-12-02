@@ -983,3 +983,293 @@ footer{
         }
     }
 }
+
+// media query starts from here 
+
+@media (min-width:350px) and (max-width:750px){
+
+#sec1{
+    height: 70vh;
+
+    .im{
+        height: 70vh;
+    }
+    .mi{
+        font-size: 20px;
+    }
+}
+#sec2{
+    height: 160vh;
+
+    .ter{
+        font-size: 15px;
+    }
+    #thr{
+        height: 80vh;
+        gap: 20px;
+
+        .t1{
+            width: 40vh;
+            height: 40vh;
+
+            .se1{
+                width: 100px;
+                font-size: 15px;
+                position: absolute;
+                top: 1020px;
+                left: 110px;
+            }
+            .se2{
+                width: 100px;
+                font-size: 15px;
+                position: absolute;
+                top: 1020px;
+                left: 230px;
+            }
+        }
+        .t2{
+            width: 40vh;
+            height: 40vh;
+
+            .se1{
+                width: 100px;
+                font-size: 15px;
+                position: absolute;
+                top: 1335px;
+                left: 110px;
+            }
+            .se2{
+                width: 100px;
+                font-size: 15px;
+                position: absolute;
+                top: 1335px;
+                left: 230px;
+            }
+        }
+        .t3{
+            width: 40vh;
+            height: 40vh;
+
+            .se1{
+                width: 100px;
+                font-size: 15px;
+                position: absolute;
+                top: 1655px;
+                left: 110px;
+            }
+            .se2{
+                width: 100px;
+                font-size: 15px;
+                position: absolute;
+                top: 1655px;
+                left: 230px;
+            }
+        }
+
+    }
+}
+#sec3{
+    height: 130vh;
+}
+#qwert{
+    gap: 20px;
+    .qw1{
+        width: 40vh;
+        height: 40vh;
+
+        button{
+            position: relative;
+            top: 240px;
+            left: 80px;
+        }
+    }
+    .qw2{
+        width: 40vh;
+        height: 40vh;
+
+        button{
+            position: relative;
+            top: 240px;
+            left: 80px;
+        }
+    }
+    .qw3{
+        width: 40vh;
+        height: 40vh;
+
+        button{
+            position: relative;
+            top: 240px;
+            left: 80px;
+        }
+    }
+}
+#sec4{
+    height: 100vh;
+
+    .up{
+        font-size: 14px;
+        p{
+            font-size: 35px;
+        }
+    }
+}
+#down{
+
+    .do1{
+        font-size: 35px;
+    }
+    .mac{
+        position: relative;
+        bottom: 130px;
+        font-size: 15px;
+    }
+}
+#top{
+    height: 220vh;
+}
+#first{
+    gap: 220px;
+    .as1{
+        width: 40vh;
+        height: 40vh;
+        
+    }
+    .as2{
+        width: 40vh;
+        height: 40vh;
+    }
+    .as3{
+        width: 40vh;
+        height: 40vh;
+    }
+}
+
+#second{
+    font-size: 15px;
+    margin-left: 20%;
+    line-height: 20px;
+
+    .s1{
+        position: relative;
+        bottom: 1060px;
+    }
+
+    .s2{
+        position: relative;
+        bottom: 880px;
+    }
+
+    .s3{
+        position: relative;
+        bottom: 680px;
+    }
+
+}
+#sec6{
+    height: 90vh;
+}
+#mg{
+    .mg1{
+        width: 58vh;
+        height: 38vh;
+    }
+
+    .mg2{
+        font-size: 20px;
+    }
+}
+#sec7{
+    height: 170vh;
+}
+#zac{
+    gap: 15px;
+    .zac1{
+        font-size: 18px;
+    }
+}
+#dest{
+    gap: 25px;
+    .des1{
+        width: 40vh;
+        height: 40vh;
+    }
+    .des2{
+        width: 40vh;
+        height: 40vh;
+    }
+    .des3{
+        width: 40vh;
+        height: 40vh;
+    }
+}
+#sec8{
+    height: 185vh;
+}
+#mon{
+    display: block;
+    .mo1{
+        font-size: 20px;
+       
+    }
+     .mo2{
+       button{
+        padding: 1%;
+        margin-bottom: 1%;
+       }
+     }
+}
+#alpha{
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+
+    .al1{
+        width: 30vh;
+        height: 35vh;
+    }
+    .al2{
+        width: 30vh;
+        height: 35vh;
+    }
+    .al3{
+        width: 30vh;
+        height: 35vh;
+    }
+    .al4{
+        width: 30vh;
+        height: 35vh;
+    }
+}
+#balp{
+    font-size: 15px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    .ba1{
+        width: 30vh;
+        height: 40vh;
+    }
+    .ba2{
+        width: 30vh;
+        height: 40vh;
+    }
+    .ba3{
+        width: 30vh;
+        height: 35vh;
+    }
+    .ba4{
+        width: 30vh;
+        height: 35vh;
+    }
+}
+
+
+
+
+
+
+
+}
