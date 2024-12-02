@@ -1,0 +1,611 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60px;
+  border: 1px solid black;
+  color: black;
+  background-color: antiquewhite;
+}
+#head .fi {
+  font-size: 35px;
+  margin-left: 5%;
+}
+#head .si ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  gap: 30px;
+  list-style: none;
+}
+#head .si ul a {
+  text-decoration: none;
+}
+#head .si ul a:hover {
+  border-bottom: red;
+}
+#head .ti {
+  margin-right: 15%;
+}
+
+#front {
+  width: 100%;
+}
+
+#sec1 {
+  height: 100vh;
+}
+#sec1 .im {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(img/home.jpg);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+#sec1 .mi {
+  position: absolute;
+  top: 140px;
+  left: 40px;
+  font-size: 50px;
+  color: white;
+}
+#sec1 .mi button {
+  width: 30vh;
+  height: 5vh;
+  border-radius: 60px;
+  background-color: white;
+  color: black;
+}
+#sec1 .mi button:hover {
+  background-color: red;
+  color: white;
+}
+
+#sec2 {
+  height: 100vh;
+  width: 100%;
+}
+#sec2 .ter {
+  margin-left: 35px;
+  font-size: 25px;
+}
+#sec2 .ter p {
+  font-size: 60px;
+}
+#sec2 .ter a {
+  text-decoration: none;
+  color: black;
+}
+#sec2 .ter a:hover {
+  border-bottom: 2px solid red;
+}
+
+#thr {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#thr .t1 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#thr .t1 button {
+  position: relative;
+  top: 450px;
+  left: 22px;
+  font-size: 20px;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 40px;
+}
+#thr .t1 .se1 {
+  background-color: white;
+}
+#thr .t1 .se1:hover {
+  background-color: red;
+  color: white;
+}
+#thr .t1 .se2 {
+  background-color: red;
+  color: white;
+}
+#thr .t1 .se2:hover {
+  background-color: white;
+  color: black;
+}
+#thr .t2 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#thr .t2 button {
+  position: relative;
+  top: 450px;
+  left: 22px;
+  font-size: 20px;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 40px;
+}
+#thr .t2 .se1 {
+  background-color: white;
+}
+#thr .t2 .se1:hover {
+  background-color: red;
+  color: white;
+}
+#thr .t2 .se2 {
+  background-color: red;
+  color: white;
+}
+#thr .t2 .se2:hover {
+  background-color: white;
+  color: black;
+}
+#thr .t3 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#thr .t3 button {
+  position: relative;
+  top: 450px;
+  left: 22px;
+  font-size: 20px;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 40px;
+}
+#thr .t3 .se1 {
+  background-color: white;
+}
+#thr .t3 .se1:hover {
+  background-color: red;
+  color: white;
+}
+#thr .t3 .se2 {
+  background-color: red;
+  color: white;
+}
+#thr .t3 .se2:hover {
+  background-color: white;
+  color: black;
+}
+
+#sec3 {
+  width: 100%;
+  height: 70vh;
+}
+
+#qwert {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#qwert .qw1 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#qwert .qw1 button {
+  position: relative;
+  top: 400px;
+  left: 110px;
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#qwert .qw1 button:hover {
+  color: white;
+  background-color: red;
+}
+#qwert .qw2 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#qwert .qw2 button {
+  position: relative;
+  top: 400px;
+  left: 110px;
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#qwert .qw2 button:hover {
+  color: white;
+  background-color: red;
+}
+#qwert .qw3 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#qwert .qw3 button {
+  position: relative;
+  top: 400px;
+  left: 110px;
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#qwert .qw3 button:hover {
+  color: white;
+  background-color: red;
+}
+
+#sec4 {
+  width: 100%;
+  height: 90vh;
+}
+#sec4 .up {
+  margin-left: 35px;
+  font-size: 25px;
+}
+#sec4 .up p {
+  font-size: 60px;
+}
+#sec4 .up a {
+  text-decoration: none;
+  color: black;
+}
+#sec4 .up a:hover {
+  border-bottom: 2px solid red;
+}
+#sec4 #down {
+  width: 95%;
+  height: 65vh;
+  margin-left: 2%;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: absolute;
+}
+#sec4 #down .do1 {
+  width: 40%;
+  height: 65vh;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+#sec4 #down .do1 button {
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#sec4 #down .do1 button:hover {
+  color: white;
+  background-color: red;
+}
+
+#sec5 {
+  width: 100%;
+  height: 100vh;
+}
+
+#first {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#first .as1 {
+  width: 470px;
+  height: 330px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#first .as2 {
+  width: 470px;
+  height: 330px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#first .as3 {
+  width: 470px;
+  height: 330px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+#second {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#second .s1 {
+  width: 470px;
+  height: 330px;
+}
+#second .s1 button {
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#second .s1 button:hover {
+  color: white;
+  background-color: red;
+}
+#second .s2 {
+  width: 470px;
+  height: 330px;
+}
+#second .s2 button {
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#second .s2 button:hover {
+  color: white;
+  background-color: red;
+}
+#second .s3 {
+  width: 470px;
+  height: 330px;
+}
+#second .s3 button {
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#second .s3 button:hover {
+  color: white;
+  background-color: red;
+}
+
+#sec6 {
+  width: 100%;
+  height: 40vh;
+  border-bottom: 1px solid black;
+}
+
+#mg {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-left: 3%;
+}
+#mg .mg1 {
+  width: 550px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+#mg .mg2 {
+  font-size: 20px;
+}
+#mg .mg2 button {
+  font-size: 20px;
+  width: 18vh;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+#mg .mg2 button:hover {
+  color: white;
+  background-color: red;
+}
+
+#sec7 {
+  width: 100%;
+  height: 55vh;
+  border-bottom: 1px solid black;
+}
+
+#zac {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#zac .zac1 {
+  margin-left: 2%;
+  font-size: 20px;
+}
+#zac .zac2 {
+  margin-right: 2%;
+}
+#zac .zac2 button {
+  width: 120px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 80px;
+}
+#zac .zac2 .zc {
+  background-color: white;
+  color: black;
+}
+#zac .zac2 .zc:hover {
+  background-color: red;
+  color: white;
+}
+#zac .zac2 .za {
+  background-color: red;
+  color: white;
+}
+#zac .zac2 .za:hover {
+  background-color: white;
+  color: black;
+}
+
+#dest {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#dest .des1 {
+  width: 470px;
+  height: 290px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#dest .des1 h1 {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 30px;
+}
+#dest .des1 p {
+  margin-left: 2%;
+  font-size: 18px;
+}
+#dest .des2 {
+  width: 470px;
+  height: 290px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#dest .des2 h1 {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 30px;
+}
+#dest .des2 p {
+  margin-left: 2%;
+  font-size: 18px;
+}
+#dest .des3 {
+  width: 470px;
+  height: 290px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#dest .des3 h1 {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 30px;
+}
+#dest .des3 p {
+  margin-left: 2%;
+  font-size: 18px;
+}
+
+#sec8 {
+  width: 100%;
+  height: 90vh;
+  border-bottom: 1px solid black;
+}
+
+#mon {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#mon .mo1 {
+  font-size: 25px;
+  margin-left: 2%;
+}
+#mon .mo2 {
+  margin-right: 3%;
+}
+#mon .mo2 button {
+  width: 200px;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 80px;
+  padding: 5%;
+  color: black;
+  background-color: white;
+}
+#mon .mo2 button:hover {
+  background-color: red;
+  color: white;
+}
+
+#alpha {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#alpha .al1 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#alpha .al2 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#alpha .al3 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#alpha .al4 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+#balp {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#balp .ba1 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#balp .ba2 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#balp .ba3 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#balp .ba4 {
+  width: 330px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 30px;
+}/*# sourceMappingURL=style.css.map */

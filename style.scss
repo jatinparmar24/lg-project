@@ -1,0 +1,720 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    color: black;
+    background-color: antiquewhite;
+
+    .fi{
+        font-size: 35px;
+        margin-left: 5%;
+    }
+
+    .si{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            flex-wrap: wrap;
+            font-size: 20px;
+            gap: 30px;
+            list-style: none;
+           
+            a{
+                text-decoration: none;
+    
+            }
+            a:hover{
+                border-bottom: red;
+            }
+    }
+}
+    .ti{
+        margin-right: 15%;
+
+    }
+}
+
+// header ends here 
+// main starts fron here 
+#front{
+    width: 100%;
+}
+#sec1{
+    height: 100vh;
+
+    .im{
+        border: 1px solid black;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-image: url(img/home.jpg);
+        background-size: 100% 100vh;
+        background-repeat: no-repeat;
+        background-position: 100%;
+    }
+    .mi{
+        position: absolute;
+        top: 140px;
+        left: 40px;
+        font-size: 50px;
+        color: white;
+
+        button{
+            width: 30vh;
+            height: 5vh;
+            border-radius: 60px;
+            background-color: white;
+            color: black;
+        }
+        button:hover{
+            background-color: red;
+            color: white;
+        }
+
+    }
+}
+
+// sec1 ends here 
+// sec2 starts here 
+
+#sec2{
+    height: 100vh;
+    width: 100%;
+
+    .ter{
+        margin-left: 35px;
+        font-size: 25px;
+
+        p{
+            font-size: 60px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            border-bottom: 2px solid red;
+        }
+    }
+}
+#thr{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+    .t1{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        button{
+            position: relative;
+            top: 450px;
+            left: 22px;
+            font-size: 20px;
+            width: 20vh;
+            height: 5vh;
+            border-radius: 40px;
+        }
+
+        .se1{
+            background-color: white;
+        }
+        .se1:hover{
+            background-color: red;
+            color: white;
+        }
+
+        .se2{
+            background-color: red;
+            color: white;
+        }
+        .se2:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+    .t2{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        button{
+            position: relative;
+            top: 450px;
+            left: 22px;
+            font-size: 20px;
+            width: 20vh;
+            height: 5vh;
+            border-radius: 40px;
+        }
+
+        .se1{
+            background-color: white;
+        }
+        .se1:hover{
+            background-color: red;
+            color: white;
+        }
+
+        .se2{
+            background-color: red;
+            color: white;
+        }
+        .se2:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+    .t3{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        button{
+            position: relative;
+            top: 450px;
+            left: 22px;
+            font-size: 20px;
+            width: 20vh;
+            height: 5vh;
+            border-radius: 40px;
+        }
+
+        .se1{
+            background-color: white;
+        }
+        .se1:hover{
+            background-color: red;
+            color: white;
+        }
+
+        .se2{
+            background-color: red;
+            color: white;
+        }
+        .se2:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}
+
+    // <!-- section2 ends here  -->
+    // <!-- section3 starts here  -->
+
+#sec3{
+    width: 100%;
+    height: 70vh;
+}
+
+#qwert{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+    .qw1{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        button{
+            position: relative;
+            top: 400px;
+            left: 110px;
+            font-size: 20px;
+            width: 18vh;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+
+        button:hover{
+            color: white;
+            background-color: red;
+        }
+
+    }
+    .qw2{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        button{
+            position: relative;
+            top: 400px;
+            left: 110px;
+            font-size: 20px;
+            width: 18vh;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+
+        button:hover{
+            color: white;
+            background-color: red;
+        }
+    }
+    .qw3{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        button{
+            position: relative;
+            top: 400px;
+            left: 110px;
+            font-size: 20px;
+            width: 18vh;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+
+        button:hover{
+            color: white;
+            background-color: red;
+        }
+    }
+}
+
+// section3 ends here 
+// section4 starts here 
+
+#sec4{
+    width: 100%;
+    height: 90vh;
+
+    .up{
+        margin-left: 35px;
+        font-size: 25px;
+
+        p{
+            font-size: 60px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            border-bottom: 2px solid red;
+        }
+    }
+
+    #down{
+        width: 95%;
+        height: 65vh;
+        margin-left: 2%;
+        border: 1px solid black;
+        border-radius: 50px;
+        position: absolute;
+
+        .do1{
+            width: 40%;
+            height: 65vh;
+            margin-left: 30px;
+            margin-top: 30px;
+            font-size: 20px;
+
+
+            button{
+                font-size: 20px;
+                width: 18vh;
+                height: 5vh;
+                border-radius: 50px;
+                background-color: white;
+                color: black;
+            }
+            button:hover{
+                color: white;
+                background-color: red;
+            }
+        }
+    }
+}
+
+// section4 ends here 
+// section5 starts here 
+
+
+#sec5{
+    width: 100%;
+    height: 100vh;
+}
+
+#first{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .as1{
+        width: 470px;
+        height: 330px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        
+    }
+    
+    .as2{
+        width: 470px;
+        height: 330px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+    
+    .as3{
+        width: 470px;
+        height: 330px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+}
+
+#second{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .s1{
+        width: 470px;
+        height: 330px;
+
+        button{
+            font-size: 20px;
+            width: 18vh;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+        button:hover{
+            color: white;
+            background-color: red;
+        }
+    }
+    
+    .s2{
+        width: 470px;
+        height: 330px;
+
+        button{
+            font-size: 20px;
+            width: 18vh;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+        button:hover{
+            color: white;
+            background-color: red;
+        }
+    }
+    
+    .s3{
+        width: 470px;
+        height: 330px;
+
+        button{
+            font-size: 20px;
+            width: 18vh;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+        button:hover{
+            color: white;
+            background-color: red;
+        }
+    }
+}
+
+// section5 ends here 
+// section6 starts from here 
+
+#sec6{
+    width: 100%;
+    height: 40vh;
+    border-bottom: 1px solid black;
+}
+#mg{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 3%;
+
+    .mg1{
+        width: 550px;
+        height: 300px;
+        border: 1px solid black;
+        border-radius: 50px;
+     }
+
+     .mg2{
+        font-size: 20px;
+        
+        button{
+            font-size: 20px;
+            width: 18vh;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: white;
+            color: black;
+        }
+        button:hover{
+            color: white;
+            background-color: red;
+        }
+
+     }
+    }
+
+    // section6 ends here 
+    // section7 starts from here 
+
+   #sec7{
+    width: 100%;
+    height: 55vh;
+    border-bottom: 1px solid black;
+   } 
+
+   #zac{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .zac1{
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .zac2{
+        margin-right: 2%;
+
+      button{
+        width: 120px;
+        height: 45px;
+        font-size: 20px;
+        border-radius: 80px;
+      }  
+
+      .zc{
+        background-color: white;
+        color: black;
+      }
+
+      .zc:hover{
+        background-color: red;
+        color: white;
+      }
+
+      .za{
+        background-color: red;
+        color: white;
+      }
+      .za:hover{
+        background-color: white;
+        color: black;
+      }
+       
+      
+    }
+
+   }
+
+   #dest{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .des1{
+        width: 470px;
+        height: 290px;
+        border: 1px solid black;
+        border-radius: 30px;
+           
+        h1{
+            margin-left: 2%;
+            margin-top: 2%;
+            font-size: 30px;
+        }
+        p{
+            margin-left: 2%;
+            font-size: 18px;
+        }
+        
+    }
+    
+    .des2{
+        width: 470px;
+        height: 290px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        h1{
+            margin-left: 2%;
+            margin-top: 2%;
+            font-size: 30px;
+        }
+        p{
+            margin-left: 2%;
+            font-size: 18px;
+        }
+    }
+    
+    .des3{
+        width: 470px;
+        height: 290px;
+        border: 1px solid black;
+        border-radius: 30px;
+
+        h1{
+            margin-left: 2%;
+            margin-top: 2%;
+            font-size: 30px;
+        }
+        p{
+            margin-left: 2%;
+            font-size: 18px;
+        }
+    }
+}
+
+// section7 ends here 
+// section8 starts here 
+
+#sec8{
+    width: 100%;
+    height: 90vh;
+    border-bottom: 1px solid black;
+}
+#mon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .mo1{
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+    .mo2{
+        margin-right: 3%;
+        
+
+        button{
+            width: 200px;
+            height: 60px;
+            font-size: 25px;
+            border-radius: 80px;
+            padding: 5%;
+            color: black;
+            background-color: white;
+          }  
+          button:hover{
+            background-color: red;
+            color: white;
+          }
+    
+    }
+
+
+}
+
+#alpha{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .al1{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .al2{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .al3{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .al4{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+}
+
+
+#balp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .ba1{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .ba2{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .ba3{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .ba4{
+        width: 330px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+}
