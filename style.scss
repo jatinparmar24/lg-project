@@ -8,7 +8,12 @@
 main{
     background-color: antiquewhite;
 }
-
+#checker {
+    display: none;
+}
+#bars {
+    display: none;
+}
 #head{
     display: flex;
     justify-content: space-around;
@@ -21,6 +26,11 @@ main{
 
     .fi{
         font-size: 40px;
+        img {
+            width: 120px;
+            height: 50px;
+            padding-top: 10px;
+        }
     }
 
     .si{
@@ -367,6 +377,11 @@ main{
     }
 
     #down{
+        background-color: aquamarine;
+        // background-image: url(img/rotate.jpg);
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position: 100%;
         width: 95%;
         height: 65vh;
         margin-left: 2%;
@@ -988,7 +1003,14 @@ footer{
 
 @media (min-width:350px) and (max-width:750px){
 
-
+#bars {
+    display: block;
+    left: 10%;
+    color: rgba(202, 24, 8, 0.974);
+    line-height: 80px;
+    font-size: 35px;
+    z-index: 12;
+}
     #head{
         .fi{
             font-size: 55px;

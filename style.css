@@ -10,6 +10,14 @@ main {
   background-color: antiquewhite;
 }
 
+#checker {
+  display: none;
+}
+
+#bars {
+  display: none;
+}
+
 #head {
   display: flex;
   justify-content: space-around;
@@ -22,6 +30,11 @@ main {
 }
 #head .fi {
   font-size: 40px;
+}
+#head .fi img {
+  width: 120px;
+  height: 50px;
+  padding-top: 10px;
 }
 #head .si {
   margin-top: 1%;
@@ -316,6 +329,7 @@ main {
   border-bottom: 2px solid red;
 }
 #sec4 #down {
+  background-color: aquamarine;
   width: 95%;
   height: 65vh;
   margin-left: 2%;
@@ -847,6 +861,14 @@ footer {
 }
 
 @media (min-width: 350px) and (max-width: 750px) {
+  #bars {
+    display: block;
+    left: 10%;
+    color: rgba(202, 24, 8, 0.974);
+    line-height: 80px;
+    font-size: 35px;
+    z-index: 12;
+  }
   #head .fi {
     font-size: 55px;
     color: rgba(202, 24, 8, 0.974);
